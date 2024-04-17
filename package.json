@@ -1,0 +1,19 @@
+{
+  "name": "playplex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dari-ko/PlayPlex.git"
+  },
+  "author": "DartLiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dari-ko/PlayPlex/issues"
+  },
+  "homepage": "https://github.com/dari-ko/PlayPlex#readme"
+}
