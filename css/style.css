@@ -1,0 +1,60 @@
+:root {
+
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+h1{
+    font-family: 'Jersey 10 Charted',sans-serif;
+    font-size: 8em!important;
+}
+h3 {
+    font-weight: lighter;
+    color: #fff;
+}
+
+.container-fluid {
+    color: #fff;
+    text-align: center;
+}
+.container-fluid.hero {
+    --bs-gutter-x: 0;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+
+
+/*-----------------------------------LOGIN-----------------------------------*/
+
+.login-bg {
+    background-color: tomato;
+}
+
+.login-link:hover {
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+/*-----------------------------------HEADER-----------------------------------*/
+header {
+    height: 10vh;
+}
+
+
+/*-----------------------------------NAV-----------------------------------*/
+
+nav{
+    height: 90vh;
+}
+nav a {
+    height: 30vh;
+}
+
+
+.p-10{
+    padding:4rem;
+}
