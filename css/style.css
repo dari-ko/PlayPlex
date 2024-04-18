@@ -1,16 +1,19 @@
 :root {
 
 }
-body{
+
+body {
     font-family: "Poppins", sans-serif;
 }
+
 a {
     text-decoration: none;
 }
-h1{
-    font-family: 'Jersey 10 Charted',sans-serif;
-    font-size: 8em!important;
+
+h1 {
+    font-size: 7em !important;
 }
+
 h3 {
     font-weight: lighter;
     color: #fff;
@@ -20,13 +23,61 @@ h3 {
     color: #fff;
     text-align: center;
 }
+
 .container-fluid.hero {
     --bs-gutter-x: 0;
 }
+
 .row {
     --bs-gutter-x: 0;
 }
 
+
+/*-----------------------------------FONTS-----------------------------------*/
+.titan-one-regular {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lexend {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /*-----------------------------------LOGIN-----------------------------------*/
 
@@ -47,14 +98,15 @@ header {
 
 /*-----------------------------------NAV-----------------------------------*/
 
-nav{
+nav {
     height: 90vh;
 }
+
 nav a {
     height: 30vh;
 }
 
 
-.p-10{
-    padding:4rem;
+.p-10 {
+    padding: 4rem;
 }
