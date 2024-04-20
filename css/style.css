@@ -31,8 +31,9 @@ h3 {
 .row {
     --bs-gutter-x: 0;
 }
-
-
+.text-primary{
+    color:#ff6348!important;
+}
 /*-----------------------------------FONTS-----------------------------------*/
 .titan-one-regular {
     font-family: "Titan One", sans-serif;
@@ -84,10 +85,31 @@ h3 {
 .login-bg {
     background-color: tomato;
 }
+.login-link-hover:hover {
 
-.login-link:hover {
-    border: 5px solid white;
-    border-radius: 5px;
+}
+.pulse {
+    --color: #ff6348;
+    --hover: #ff6348;
+}
+
+.pulse:hover,
+.pulse:focus {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    box-shadow: 0 10em 10em 2em transparent;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
 }
 
 /*-----------------------------------HEADER-----------------------------------*/
@@ -108,5 +130,5 @@ nav a {
 
 
 .p-10 {
-    padding: 4rem;
+    padding: 4.1rem;
 }
