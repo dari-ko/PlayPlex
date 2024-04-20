@@ -85,19 +85,16 @@ h3 {
 .login-bg {
     background-color: tomato;
 }
-.login-link-hover:hover {
-
-}
 .pulse {
-    --color: #ff6348;
-    --hover: #ff6348;
+    --color: #fff;
+    --hover: #fff;
 }
 
 .pulse:hover,
 .pulse:focus {
     -webkit-animation: pulse 1s;
     animation: pulse 1s;
-    box-shadow: 0 10em 10em 2em transparent;
+    box-shadow: 10em 10em 10em 0 transparent;
 }
 
 @-webkit-keyframes pulse {
