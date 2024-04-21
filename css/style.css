@@ -85,30 +85,17 @@ h3 {
 .login-bg {
     background-color: tomato;
 }
-.pulse {
-    --color: #fff;
-    --hover: #fff;
+.btn-login{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    color:tomato;
+    border-radius: 30px;
 }
-
-.pulse:hover,
-.pulse:focus {
-    -webkit-animation: pulse 1s;
-    animation: pulse 1s;
-    box-shadow: 10em 10em 10em 0 transparent;
+.btn-login:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    color:tomato;
 }
-
-@-webkit-keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 var(--hover);
-    }
-}
-
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 var(--hover);
-    }
-}
-
 /*-----------------------------------HEADER-----------------------------------*/
 header {
     height: 10vh;
